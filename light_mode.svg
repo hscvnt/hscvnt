@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="800px" height="540px" font-size="16px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+text, tspan {white-space: pre;}
+.site  {fill: #7f0000; letter-spacing: 2px;}
+.mail  {fill: #7a5c5c;}
+.handle{fill: #7a5c5c;}
+.cap   {fill: #7a5c5c; letter-spacing: 4px; opacity: 0.75;}
+</style>
+<defs>
+<linearGradient id="art" x1="0" y1="48" x2="0" y2="508" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7f0000"/>
+<stop offset="1" stop-color="#d96b6b"/>
+</linearGradient>
+<linearGradient id="logo_bg" x1="150" y1="0" x2="0" y2="300" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFA7A7"/><stop offset="1" stop-color="#996464"/>
+</linearGradient>
+<linearGradient id="logo_tl" x1="150" y1="150" x2="50" y2="50" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A90000"/><stop offset="1" stop-color="#430000"/>
+</linearGradient>
+<linearGradient id="logo_bl" x1="150" y1="150" x2="50" y2="250" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A90000"/><stop offset="1" stop-color="#430000"/>
+</linearGradient>
+<linearGradient id="logo_br" x1="150" y1="150" x2="250" y2="250" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A90000"/><stop offset="1" stop-color="#430000"/>
+</linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+<stop stop-color="#ffb3b3" stop-opacity="0.45"/>
+<stop offset="1" stop-color="#ffb3b3" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<rect x="0.5" y="0.5" width="799" height="539" rx="15" fill="#fdf6f6" stroke="#e6d0d0"/>
+<circle cx="460.0" cy="230.0" r="184" fill="url(#glow)"/>
+<line x1="260" y1="42" x2="260" y2="498" stroke="#e6cfcf" stroke-width="1"/>
+<text x="55" y="48" fill="url(#art)"><tspan x="55" y="48.0">####       ####</tspan><tspan x="55" y="68.0"> ####     #### </tspan><tspan x="55" y="88.0">  ####   ####  </tspan><tspan x="55" y="108.0">    #######    </tspan><tspan x="55" y="128.0">  ####   ####  </tspan><tspan x="55" y="148.0"> ####     #### </tspan><tspan x="55" y="168.0">####       ####</tspan><tspan x="55" y="188.0"></tspan><tspan x="55" y="208.0">###############</tspan><tspan x="55" y="228.0">######         </tspan><tspan x="55" y="248.0">######         </tspan><tspan x="55" y="268.0">############   </tspan><tspan x="55" y="288.0">######         </tspan><tspan x="55" y="308.0">######         </tspan><tspan x="55" y="328.0">######         </tspan><tspan x="55" y="348.0"></tspan><tspan x="55" y="368.0">  ########### </tspan><tspan x="55" y="388.0"> ####     ####</tspan><tspan x="55" y="408.0"> ####         </tspan><tspan x="55" y="428.0">  ########### </tspan><tspan x="55" y="448.0">          ####</tspan><tspan x="55" y="468.0"> ####     ####</tspan><tspan x="55" y="488.0">  ########### </tspan></text>
+<g transform="translate(340 110) scale(0.800000)">
+<rect width="300" height="300" rx="75" fill="url(#logo_bg)"/>
+<path d="M250 72.5C250 60.0736 239.926 50 227.5 50C190.221 50 160 80.2208 160 117.5C160 129.926 170.074 140 182.5 140H225C238.807 140 250 128.807 250 115V72.5Z" fill="#A90000"/>
+<path d="M50 75C50 61.1929 61.1929 50 75 50C116.421 50 150 83.5786 150 125V150H75C61.1929 150 50 138.807 50 125V75Z" fill="url(#logo_tl)"/>
+<path d="M150 225C150 238.807 138.807 250 125 250C83.5786 250 50 216.421 50 175C50 161.193 61.1929 150 75 150H150V225Z" fill="url(#logo_bl)"/>
+<path d="M250 225C250 238.807 238.807 250 225 250C183.579 250 150 216.421 150 175V150H225C238.807 150 250 161.193 250 175V225Z" fill="url(#logo_br)"/>
+<path d="M150 125C150 138.807 161.193 150 175 150H150V125Z" fill="#A90000"/>
+</g>
+<image x="600" y="175" width="110" height="110" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAADwCAYAAAA+VemSAAACaklEQVR42u3WwQkDIRBA0RiswhLFcmRL9DwdmHsgh4AE17xXgKwjfzVFxAO4p6cRgIABAQMCBgEDAgYEDAgYBAwIGBAwCBgQMCBgQMAgYEDAgIABAcMZ8uoFR6tz902XfqVdv838zM8NDJ7QgIABAQMCBgEDAgYEDAIGBAwIGBAwCBgQMCBgQMAgYEDAgIBBwICAAQEDAgYBAwIGBAwIGAQMCBgQMAgYEDAgYEDAIGBAwICAQcCAgIGfy/+46dHqdPTm5wYGBAwIGAQMCBgQMCBgEDAgYEDAgIBBwICAAQGDgAEBAwIGBAwCBgQMCBgEDAgYEDAgYBAwIGBAwICAQcCAgAEBg4ABAQMCBgQMAgYEDAgYEDDcX4oIU9jIaHXu/o2lX8lJuYEBAYOAAQEDAgYEDAIGBAwIGBAwCBgQMCBgEDAgYEDAgIBBwICAAQEDAgYBAwIGBAwCBgQMCBgQMAgYEDAgYBAwIGBAwICAQcCAgAEBA+9SRCxdcLQ6jRU+K/1Kq9bKxnn2Aa/mB+0JDQgYEDAIGBAwIGAQMCBgQMCAgEHAgIABAYOAAQEDAgYEDAIGBAwIGBAwCBgQMCBgEDAgYEDAgIBBwICAAQEDAgYBAwIGBAwCBgQMCBgQMBwo/+OmS7+Soz9zdqPV6QYGBAwIGBAwCBgQMCBgEDAgYEDAgIBBwICAAQEDAgYBAwIGBAwCBgQMCBgQMAgYEDAgYEDAIGBAwICAQcCAgAEBAwIGAQMCBgQMCBgEDAgY+FKKCFMANzAgYEDAIGBAwICAAQGDgAEBAwIGAQMCBgQMCBgEDAgYEDAgYDjAC/WNL+ByjA8AAAAAAElFTkSuQmCC"/>
+<line x1="430" y1="384" x2="620" y2="384" stroke="#e6cfcf" stroke-width="1"/>
+<text class="site" x="525" y="418" text-anchor="middle" font-size="17px">myxfs.fun</text>
+<text class="mail" x="525" y="448" text-anchor="middle" font-size="12.5px">comxfsproject@gmail.com</text>
+<text class="handle" x="525" y="474" text-anchor="middle" font-size="12.5px">@xfscvnt</text>
+<text class="cap" x="525" y="500" text-anchor="middle" font-size="11px">ознакомление</text>
+</svg>
