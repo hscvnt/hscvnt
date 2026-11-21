@@ -6,6 +6,6 @@
 -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
-  <img alt="XFS — myxfs.fun" src="light_mode.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=2">
+  <img alt="XFS — myxfs.fun" src="light_mode.svg?v=2">
 </picture>
