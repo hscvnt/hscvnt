@@ -1,9 +1,8 @@
 <!--
-  XFS — profile card + link buttons.
+  XFS — profile card + info rows.
 
-  Clickable elements live in the README, not inside the SVG: an <img> is not
-  interactive, so the card is wrapped in a link and the buttons are SVG images
-  wrapped in links.
+  Everything clickable lives in the README, not inside the SVG: an <img> is not
+  interactive, so the card and every row are SVG images wrapped in links.
 
   Hover/CSS/JS do not exist in a README, so "copy on hover" uses GitHub's own
   copy button, which it adds to fenced code blocks.
@@ -24,11 +23,9 @@
 </p>
 
 <p align="center">
-  <a href="https://myxfs.fun"><img src="btn-site.svg" height="46" alt="myxfs.fun"></a>
-  &nbsp;
-  <a href="mailto:comxfsproject@gmail.com"><img src="btn-email.svg" height="46" alt="email"></a>
-  &nbsp;
-  <a href="https://github.com/hscvnt"><img src="btn-github.svg" height="46" alt="github"></a>
+  <a href="https://myxfs.fun"><img src="row-site.svg" width="800" alt="myxfs.fun"></a><br>
+  <a href="mailto:comxfsproject@gmail.com"><img src="row-email.svg" width="800" alt="email"></a><br>
+  <a href="https://github.com/hscvnt"><img src="row-github.svg" width="800" alt="github"></a>
 </p>
 
 <details>
