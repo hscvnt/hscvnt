@@ -1,15 +1,29 @@
 <!--
-  XFS — profile card: vertical XFS wordmark + the mark + contacts.
+  XFS — profile card + link buttons.
 
-  Typeface: Unbounded Black, subset and embedded in the SVG (an <img> cannot
-  fetch external fonts). Frame: animated SMIL beam — CSS in a README would be
-  stripped by GitHub, animations inside an SVG image do run.
+  Clickable elements live in the README, not inside the SVG: an <img> is not
+  interactive, so the card is wrapped in a link and the buttons are SVG images
+  wrapped in links.
 
-  No absolute links inside, so renaming the account or the repo is safe.
+  Typeface: Unbounded Black, subset and embedded in every SVG.
+  Frame: animated SMIL beam inside the card.
+
   Regenerate: python build_profile.py
 -->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="card-dark-v2.svg">
-  <img alt="XFS — myxfs.fun" src="card-light-v2.svg">
-</picture>
+<p align="center">
+  <a href="https://myxfs.fun">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="card-dark-v2.svg">
+      <img alt="XFS — myxfs.fun" src="card-light-v2.svg">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://myxfs.fun"><img src="btn-site.svg" height="46" alt="myxfs.fun"></a>
+  &nbsp;
+  <a href="mailto:comxfsproject@gmail.com"><img src="btn-email.svg" height="46" alt="email"></a>
+  &nbsp;
+  <a href="https://github.com/hscvnt"><img src="btn-github.svg" height="46" alt="github"></a>
+</p>
