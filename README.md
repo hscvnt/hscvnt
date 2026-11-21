@@ -17,8 +17,8 @@
 <p align="center">
   <a href="https://myxfs.fun">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="card-dark-v2.svg">
-      <img alt="XFS — myxfs.fun" src="card-light-v2.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="card-dark-v3.svg">
+      <img alt="XFS — myxfs.fun" src="card-light-v3.svg">
     </picture>
   </a>
 </p>
