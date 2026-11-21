@@ -5,6 +5,9 @@
   interactive, so the card is wrapped in a link and the buttons are SVG images
   wrapped in links.
 
+  Hover/CSS/JS do not exist in a README, so "copy on hover" uses GitHub's own
+  copy button, which it adds to fenced code blocks.
+
   Typeface: Unbounded Black, subset and embedded in every SVG.
   Frame: animated SMIL beam inside the card.
 
@@ -27,3 +30,12 @@
   &nbsp;
   <a href="https://github.com/hscvnt"><img src="btn-github.svg" height="46" alt="github"></a>
 </p>
+
+<details>
+<summary>copy e-mail</summary>
+
+```text
+comxfsproject@gmail.com
+```
+
+</details>
